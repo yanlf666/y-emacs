@@ -21,5 +21,8 @@
 
 (add-to-list 'load-path "~/y-emacs/theme/")
 
+(add-to-list 'load-path "~/y-emacs/org-mode/")
+(load "org-mode-init.el")
+
 
 (load "labburn-theme-source-code.el")
